@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import Charts
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var chartView: PieChartView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+//        chartView.delegate = self as? ChartViewDelegate
     }
 
     override func didReceiveMemoryWarning() {

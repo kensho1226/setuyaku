@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B53907A2381700ADCB1607C /* Pods_setuyaku.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31EA431878053C85A89F8E36 /* Pods_setuyaku.framework */; };
 		22751684203589C5008C84A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22751683203589C5008C84A9 /* AppDelegate.swift */; };
 		22751686203589C5008C84A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22751685203589C5008C84A9 /* ViewController.swift */; };
 		22751689203589C5008C84A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22751687203589C5008C84A9 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		2275168E203589C5008C84A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2275168C203589C5008C84A9 /* LaunchScreen.storyboard */; };
 		22751699203589C5008C84A9 /* setuyakuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22751698203589C5008C84A9 /* setuyakuTests.swift */; };
 		227516A4203589C5008C84A9 /* setuyakuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227516A3203589C5008C84A9 /* setuyakuUITests.swift */; };
+		2F3DDD6A1969B0AE8EDC9C1F /* Pods_setuyakuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00359E6DEDE53D6AA70B71C0 /* Pods_setuyakuTests.framework */; };
+		781ACF9778DE9E61CA50499D /* Pods_setuyakuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 712441DF1820DFE0FFB55948 /* Pods_setuyakuUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00359E6DEDE53D6AA70B71C0 /* Pods_setuyakuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_setuyakuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E4ACC8B0C6B899362F129FD /* Pods-setuyakuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-setuyakuUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-setuyakuUITests/Pods-setuyakuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		220F844620C15065001E78D0 /* NotoSansMonoCJKjp-Boldのコピー2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansMonoCJKjp-Boldのコピー2.otf"; sourceTree = "<group>"; };
+		220F844720C15067001E78D0 /* NotoSansMonoCJKjp-Regularのコピー2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansMonoCJKjp-Regularのコピー2.otf"; sourceTree = "<group>"; };
+		220F844820C15069001E78D0 /* NotoSansCJKjp-DemiLightのコピー2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKjp-DemiLightのコピー2.otf"; sourceTree = "<group>"; };
+		220F844920C15070001E78D0 /* NotoSansCJKjp-Lightのコピー2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKjp-Lightのコピー2.otf"; sourceTree = "<group>"; };
+		220F844A20C15071001E78D0 /* NotoSansCJKjp-Boldのコピー2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKjp-Boldのコピー2.otf"; sourceTree = "<group>"; };
+		220F844B20C15072001E78D0 /* NotoSansCJKjp-Thinのコピー2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKjp-Thinのコピー2.otf"; sourceTree = "<group>"; };
+		220F844C20C15073001E78D0 /* NotoSansCJKjp-Regularのコピー2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKjp-Regularのコピー2.otf"; sourceTree = "<group>"; };
+		220F844D20C15075001E78D0 /* NotoSansCJKjp-Blackのコピー2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKjp-Blackのコピー2.otf"; sourceTree = "<group>"; };
+		220F844E20C15075001E78D0 /* Oranienbaumのコピー2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oranienbaumのコピー2.ttf"; sourceTree = "<group>"; };
+		220F844F20C15076001E78D0 /* NotoSansCJKjp-Mediumのコピー2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKjp-Mediumのコピー2.otf"; sourceTree = "<group>"; };
 		22751680203589C5008C84A9 /* setuyaku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = setuyaku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22751683203589C5008C84A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22751685203589C5008C84A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,13 @@
 		2275169F203589C5008C84A9 /* setuyakuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = setuyakuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		227516A3203589C5008C84A9 /* setuyakuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setuyakuUITests.swift; sourceTree = "<group>"; };
 		227516A5203589C5008C84A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E25BCDB0E44641E7828DB85 /* Pods-setuyakuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-setuyakuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-setuyakuTests/Pods-setuyakuTests.release.xcconfig"; sourceTree = "<group>"; };
+		31EA431878053C85A89F8E36 /* Pods_setuyaku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_setuyaku.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67401F29AF81C488DD0DE90D /* Pods-setuyaku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-setuyaku.debug.xcconfig"; path = "Pods/Target Support Files/Pods-setuyaku/Pods-setuyaku.debug.xcconfig"; sourceTree = "<group>"; };
+		712441DF1820DFE0FFB55948 /* Pods_setuyakuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_setuyakuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD58E3201F927C72823877C0 /* Pods-setuyakuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-setuyakuUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-setuyakuUITests/Pods-setuyakuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ADEB11FD516C1BB3FE64DA94 /* Pods-setuyakuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-setuyakuTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-setuyakuTests/Pods-setuyakuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB9B5B02046BDAFAD7284A28 /* Pods-setuyaku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-setuyaku.release.xcconfig"; path = "Pods/Target Support Files/Pods-setuyaku/Pods-setuyaku.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B53907A2381700ADCB1607C /* Pods_setuyaku.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F3DDD6A1969B0AE8EDC9C1F /* Pods_setuyakuTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				781ACF9778DE9E61CA50499D /* Pods_setuyakuUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +106,8 @@
 				22751697203589C5008C84A9 /* setuyakuTests */,
 				227516A2203589C5008C84A9 /* setuyakuUITests */,
 				22751681203589C5008C84A9 /* Products */,
+				D90F70273DB507E881631E96 /* Pods */,
+				35F27E910E40A65EC6DA79F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +124,16 @@
 		22751682203589C5008C84A9 /* setuyaku */ = {
 			isa = PBXGroup;
 			children = (
+				220F844D20C15075001E78D0 /* NotoSansCJKjp-Blackのコピー2.otf */,
+				220F844A20C15071001E78D0 /* NotoSansCJKjp-Boldのコピー2.otf */,
+				220F844820C15069001E78D0 /* NotoSansCJKjp-DemiLightのコピー2.otf */,
+				220F844920C15070001E78D0 /* NotoSansCJKjp-Lightのコピー2.otf */,
+				220F844F20C15076001E78D0 /* NotoSansCJKjp-Mediumのコピー2.otf */,
+				220F844C20C15073001E78D0 /* NotoSansCJKjp-Regularのコピー2.otf */,
+				220F844B20C15072001E78D0 /* NotoSansCJKjp-Thinのコピー2.otf */,
+				220F844620C15065001E78D0 /* NotoSansMonoCJKjp-Boldのコピー2.otf */,
+				220F844720C15067001E78D0 /* NotoSansMonoCJKjp-Regularのコピー2.otf */,
+				220F844E20C15075001E78D0 /* Oranienbaumのコピー2.ttf */,
 				22751683203589C5008C84A9 /* AppDelegate.swift */,
 				22751685203589C5008C84A9 /* ViewController.swift */,
 				22751687203589C5008C84A9 /* Main.storyboard */,
@@ -125,6 +162,29 @@
 			path = setuyakuUITests;
 			sourceTree = "<group>";
 		};
+		35F27E910E40A65EC6DA79F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31EA431878053C85A89F8E36 /* Pods_setuyaku.framework */,
+				00359E6DEDE53D6AA70B71C0 /* Pods_setuyakuTests.framework */,
+				712441DF1820DFE0FFB55948 /* Pods_setuyakuUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D90F70273DB507E881631E96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67401F29AF81C488DD0DE90D /* Pods-setuyaku.debug.xcconfig */,
+				BB9B5B02046BDAFAD7284A28 /* Pods-setuyaku.release.xcconfig */,
+				ADEB11FD516C1BB3FE64DA94 /* Pods-setuyakuTests.debug.xcconfig */,
+				2E25BCDB0E44641E7828DB85 /* Pods-setuyakuTests.release.xcconfig */,
+				0E4ACC8B0C6B899362F129FD /* Pods-setuyakuUITests.debug.xcconfig */,
+				AD58E3201F927C72823877C0 /* Pods-setuyakuUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 227516A8203589C5008C84A9 /* Build configuration list for PBXNativeTarget "setuyaku" */;
 			buildPhases = (
+				6B3CA54B9E7E273838909A4A /* [CP] Check Pods Manifest.lock */,
 				2275167C203589C5008C84A9 /* Sources */,
 				2275167D203589C5008C84A9 /* Frameworks */,
 				2275167E203589C5008C84A9 /* Resources */,
+				A606AB09E10378F63895FAD7 /* [CP] Embed Pods Frameworks */,
+				613F6C70F55C3ADA1E87A667 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 227516AB203589C5008C84A9 /* Build configuration list for PBXNativeTarget "setuyakuTests" */;
 			buildPhases = (
+				E39098D442EF0EC049FA1DA5 /* [CP] Check Pods Manifest.lock */,
 				22751690203589C5008C84A9 /* Sources */,
 				22751691203589C5008C84A9 /* Frameworks */,
 				22751692203589C5008C84A9 /* Resources */,
+				9BACE392E5E4501D35FB054C /* [CP] Embed Pods Frameworks */,
+				BC2351847C23EF959F6E8A79 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 227516AE203589C5008C84A9 /* Build configuration list for PBXNativeTarget "setuyakuUITests" */;
 			buildPhases = (
+				1A3136D1FA0A6E798DC70F30 /* [CP] Check Pods Manifest.lock */,
 				2275169B203589C5008C84A9 /* Sources */,
 				2275169C203589C5008C84A9 /* Frameworks */,
 				2275169D203589C5008C84A9 /* Resources */,
+				48265470601F3C7841A12CDA /* [CP] Embed Pods Frameworks */,
+				B841141AEB5095D726DBCD7A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +322,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A3136D1FA0A6E798DC70F30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-setuyakuUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48265470601F3C7841A12CDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-setuyakuUITests/Pods-setuyakuUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		613F6C70F55C3ADA1E87A667 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-setuyaku/Pods-setuyaku-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B3CA54B9E7E273838909A4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-setuyaku-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BACE392E5E4501D35FB054C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-setuyakuTests/Pods-setuyakuTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A606AB09E10378F63895FAD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-setuyaku/Pods-setuyaku-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-setuyaku/Pods-setuyaku-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B841141AEB5095D726DBCD7A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-setuyakuUITests/Pods-setuyakuUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC2351847C23EF959F6E8A79 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-setuyakuTests/Pods-setuyakuTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E39098D442EF0EC049FA1DA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-setuyakuTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2275167C203589C5008C84A9 /* Sources */ = {
@@ -424,6 +643,7 @@
 		};
 		227516A9203589C5008C84A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67401F29AF81C488DD0DE90D /* Pods-setuyaku.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +658,7 @@
 		};
 		227516AA203589C5008C84A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB9B5B02046BDAFAD7284A28 /* Pods-setuyaku.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +673,7 @@
 		};
 		227516AC203589C5008C84A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADEB11FD516C1BB3FE64DA94 /* Pods-setuyakuTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +690,7 @@
 		};
 		227516AD203589C5008C84A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E25BCDB0E44641E7828DB85 /* Pods-setuyakuTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +707,7 @@
 		};
 		227516AF203589C5008C84A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E4ACC8B0C6B899362F129FD /* Pods-setuyakuUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +723,7 @@
 		};
 		227516B0203589C5008C84A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD58E3201F927C72823877C0 /* Pods-setuyakuUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
