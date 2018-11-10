@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1B53907A2381700ADCB1607C /* Pods_setuyaku.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31EA431878053C85A89F8E36 /* Pods_setuyaku.framework */; };
+		220F845120C161CB001E78D0 /* kirokuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220F845020C161CB001E78D0 /* kirokuViewController.swift */; };
+		220F845320C161E6001E78D0 /* youbiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220F845220C161E6001E78D0 /* youbiViewController.swift */; };
+		220F845520C16206001E78D0 /* memoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220F845420C16206001E78D0 /* memoViewController.swift */; };
+		221E1CD620DD01040038CB5B /* kakodataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E1CD520DD01040038CB5B /* kakodataViewController.swift */; };
+		221E1CD820DD013D0038CB5B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E1CD720DD013D0038CB5B /* FirstViewController.swift */; };
 		22751684203589C5008C84A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22751683203589C5008C84A9 /* AppDelegate.swift */; };
 		22751686203589C5008C84A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22751685203589C5008C84A9 /* ViewController.swift */; };
 		22751689203589C5008C84A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22751687203589C5008C84A9 /* Main.storyboard */; };
@@ -49,6 +54,11 @@
 		220F844D20C15075001E78D0 /* NotoSansCJKjp-Blackのコピー2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKjp-Blackのコピー2.otf"; sourceTree = "<group>"; };
 		220F844E20C15075001E78D0 /* Oranienbaumのコピー2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oranienbaumのコピー2.ttf"; sourceTree = "<group>"; };
 		220F844F20C15076001E78D0 /* NotoSansCJKjp-Mediumのコピー2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKjp-Mediumのコピー2.otf"; sourceTree = "<group>"; };
+		220F845020C161CB001E78D0 /* kirokuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kirokuViewController.swift; sourceTree = "<group>"; };
+		220F845220C161E6001E78D0 /* youbiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youbiViewController.swift; sourceTree = "<group>"; };
+		220F845420C16206001E78D0 /* memoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoViewController.swift; sourceTree = "<group>"; };
+		221E1CD520DD01040038CB5B /* kakodataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakodataViewController.swift; sourceTree = "<group>"; };
+		221E1CD720DD013D0038CB5B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		22751680203589C5008C84A9 /* setuyaku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = setuyaku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22751683203589C5008C84A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22751685203589C5008C84A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +146,11 @@
 				220F844E20C15075001E78D0 /* Oranienbaumのコピー2.ttf */,
 				22751683203589C5008C84A9 /* AppDelegate.swift */,
 				22751685203589C5008C84A9 /* ViewController.swift */,
+				220F845020C161CB001E78D0 /* kirokuViewController.swift */,
+				220F845220C161E6001E78D0 /* youbiViewController.swift */,
+				220F845420C16206001E78D0 /* memoViewController.swift */,
+				221E1CD520DD01040038CB5B /* kakodataViewController.swift */,
+				221E1CD720DD013D0038CB5B /* FirstViewController.swift */,
 				22751687203589C5008C84A9 /* Main.storyboard */,
 				2275168A203589C5008C84A9 /* Assets.xcassets */,
 				2275168C203589C5008C84A9 /* LaunchScreen.storyboard */,
@@ -478,8 +493,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				220F845520C16206001E78D0 /* memoViewController.swift in Sources */,
 				22751686203589C5008C84A9 /* ViewController.swift in Sources */,
 				22751684203589C5008C84A9 /* AppDelegate.swift in Sources */,
+				220F845120C161CB001E78D0 /* kirokuViewController.swift in Sources */,
+				221E1CD620DD01040038CB5B /* kakodataViewController.swift in Sources */,
+				220F845320C161E6001E78D0 /* youbiViewController.swift in Sources */,
+				221E1CD820DD013D0038CB5B /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
