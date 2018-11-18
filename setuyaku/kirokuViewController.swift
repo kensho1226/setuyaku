@@ -4,7 +4,9 @@
 //
 //  Created by keniku_macbook on 2018/06/01.
 //  Copyright © 2018年 keniku_macbook. All rights reserved.
-//
+////cellををタップしてmemoviewに入るときに、うまく表示されない
+
+//11月10日howmucharrayに値がうまく入らない
 
 import UIKit
 
@@ -93,10 +95,10 @@ class kirokuViewController: UIViewController, UITableViewDataSource, UITableView
         return cell
     }
     
-    @IBAction func memoplus () {
-        memoNo = ""
-        performSegue(withIdentifier: "toMemo", sender: self)
-    }
+//    @IBAction func memoplus () {
+//        memoNo = ""
+//        performSegue(withIdentifier: "toMemo", sender: self)
+//    }
     
     //セルがタップされた時に呼び出されるメソッド
     
