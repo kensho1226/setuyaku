@@ -13,19 +13,18 @@ class youbiViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
 //  UITableViewDataSource
     
-    var memoNo = ""
+//    var memoNo = ""
     var YoubiNo = ""
-
     var Yarray:[String] = ["月曜日", "火曜日", "水曜日", "木曜日", "金曜日", "土曜日", "日曜日"]
+    var goukei:Int = 0
     
     @IBOutlet var Ytable:UITableView!
+    var howmucharray:[Int] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-
         // Do any additional setup after loading the view.
+        goukei = howmucharray.reduce(0) {(num1: Int, num: Int)->Int in}
     }
     
     //セルの総数を設定するメソッド
@@ -61,6 +60,9 @@ class youbiViewController: UIViewController, UITableViewDelegate, UITableViewDat
             subVC.YoubiNo = self.YoubiNo
             print(YoubiNo)
         }
+        
+        if segue.identifier == "toFirst" {
+        }
     }
 
 
@@ -70,9 +72,8 @@ class youbiViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
     
     @IBAction func back () {
-        self.dismiss(animated: true, completion: nil)
+        self.performSegue(withIdentifier: "toFirst", sender: nil)
     }
-    
 
 
     

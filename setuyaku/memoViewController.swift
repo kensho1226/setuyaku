@@ -5,9 +5,9 @@
 //
 //  Created by keniku_macbook on 2018/06/01.
 //  Copyright © 2018年 keniku_macbook. All rights reserved.
-//
-
-//6/8時点コードは一通り完成
+//howmucharrayがうまく保存されない ==>解決11/24
+//arrayの中身が表示されない ==>解決11/24
+//howmucharrayをInt型に
 
 import UIKit
 
@@ -15,14 +15,11 @@ class memoViewController: UIViewController {
     
     var YoubiNo = ""
     var memoNo = ""
-    var what:UITextField!
-    var Howmuch:UITextField!
-    
     @IBOutlet var WhatTextField: UITextField!
     @IBOutlet var HowmuchTextField: UITextField!
     
     var Whatarray:[String] = []
-    var Howmucharray:[String] = []
+    var Howmucharray:[Int] = []
     var titlenamearraycount:Int = 0
     
     let saves = UserDefaults.standard
@@ -48,9 +45,9 @@ class memoViewController: UIViewController {
                 self.present(alert, animated: true, completion: nil)
             }else if memoNo != "0"{
                 Whatarray[Int(memoNo)!] = WhatTextField.text!
-                Howmucharray[Int(memoNo)!] = HowmuchTextField.text!
-                saves.set(Whatarray, forKey: "what"+YoubiNo+memoNo)
-                saves.set(Howmucharray, forKey: "howmuch"+YoubiNo+memoNo)
+                Howmucharray[Int(memoNo)!] = Int(HowmuchTextField.text!)!
+                saves.set(Whatarray, forKey: "what"+YoubiNo)
+                saves.set(Howmucharray, forKey: "howmuch"+YoubiNo)
                 WhatTextField.text = ""
                 HowmuchTextField.text = ""
                 
@@ -60,15 +57,15 @@ class memoViewController: UIViewController {
                 
                 // アラートにボタンをつける
                 alert.addAction(UIAlertAction(title: "OK", style: .default, handler: {action in
-                    self.dismiss(animated: true, completion: nil)}))
+                    self.performSegue(withIdentifier: "toK", sender: nil)}))
                 
                 // アラート表示
                 self.present(alert, animated: true, completion: nil)
             }else {
                 Whatarray.append(WhatTextField.text!)
-                Howmucharray.append(HowmuchTextField.text!)
-                saves.set(Whatarray, forKey: "what"+YoubiNo+memoNo)
-                saves.set(Howmucharray, forKey: "howmuch"+YoubiNo+memoNo)
+                Howmucharray.append(Int(HowmuchTextField.text!)!)
+                saves.set(Whatarray, forKey: "what"+YoubiNo)
+                saves.set(Howmucharray, forKey: "howmuch"+YoubiNo)
                 WhatTextField.text = ""
                 HowmuchTextField.text = ""
                 
@@ -80,7 +77,7 @@ class memoViewController: UIViewController {
                 
                 // アラートにボタンをつける
                 alert.addAction(UIAlertAction(title: "OK", style: .default, handler: {action in
-                    self.dismiss(animated: true, completion: nil)}))
+                    self.performSegue(withIdentifier: "toK", sender: nil)}))
                 
                 // アラート表示
                 self.present(alert, animated: true, completion: nil)
@@ -96,41 +93,28 @@ class memoViewController: UIViewController {
     override func viewDidLoad() {
         
 //        Whatarray = saves.object(forKey: "what"+YoubiNo+memoNo) as! [String]
-        print("何に: ", Whatarray)
-        print("何円: ", Howmucharray)
-        print(YoubiNo+"曜日")
-        print(memoNo+"メモNo")
         
         //情報を取り出す
-        
-        if saves.object(forKey: "howmuch"+YoubiNo+memoNo) != nil && Whatarray.count != 0 && memoNo != "0"{
-            Howmucharray = saves.object(forKey: "howmuch"+YoubiNo+memoNo) as! [String]
-            print(Howmucharray)
-            WhatTextField.text = String(Whatarray[Int(memoNo)!])
-            Howmuch.text = String(Howmucharray[Int(memoNo)!])
-        }else if saves.object(forKey: "howmuch"+YoubiNo+memoNo) != nil && Whatarray.count != 0{
-            memoNo = "0"
-            Howmucharray = saves.object(forKey: "howmuch"+YoubiNo+memoNo) as! [String]
+        Whatarray = saves.object(forKey: "what"+YoubiNo) as! [String]
+        Howmucharray = saves.object(forKey: "howmuch"+YoubiNo) as! [Int]
+        print("how",Howmucharray)
+        print("what",Whatarray)
+        print("memoNo",memoNo)
 
-            print(Howmucharray)
+        if memoNo != "0"{
             WhatTextField.text = String(Whatarray[Int(memoNo)!])
             HowmuchTextField.text = String(Howmucharray[Int(memoNo)!])
         }else{
-            self.Howmucharray = []
-            self.HowmuchTextField.text = ""
-            self.WhatTextField.text = ""
+            WhatTextField.text = "何に"
+            HowmuchTextField.text = "何円"
         }
         
-        if memoNo == "0" {
-            self.HowmuchTextField.text = ""
-            self.WhatTextField.text = ""
-        }
-        
-        if  saves.object(forKey: "what"+YoubiNo+memoNo) as? [String] != nil{
-            Whatarray = saves.object(forKey: "what"+YoubiNo+memoNo) as! [String]
-        }else{
-            Whatarray = []
-        }
+        print("Whatarray",Whatarray)
+        print("何に",Whatarray[Int(memoNo)!])
+        print("Howmucharray",Howmucharray)
+//        print("何円",Howmucharray[Int(memoNo)!])
+        print(YoubiNo+"曜日")
+        print(memoNo+"メモNo")
         
         super.viewDidLoad()
     }
@@ -159,10 +143,10 @@ class memoViewController: UIViewController {
         Whatarray.remove(at: Int(memoNo)!)
         Howmucharray.remove(at: Int(memoNo)!)
         
-        saves.set(Whatarray, forKey: "what"+YoubiNo+memoNo)
-        saves.set(Howmucharray, forKey: "howmuch"+YoubiNo+memoNo)
+        saves.set(Whatarray, forKey: "what"+YoubiNo)
+        saves.set(Howmucharray, forKey: "howmuch"+YoubiNo)
         
-        saves.set(Whatarray.count - 1, forKey: "what"+YoubiNo+memoNo)
+        saves.set(Whatarray.count - 1, forKey: "what"+YoubiNo)
         
         // アラートを作成
         let alert = UIAlertController(
@@ -178,6 +162,12 @@ class memoViewController: UIViewController {
     
     @IBAction func back () {
         self.dismiss(animated: true, completion: nil)
+    }
+    
+    // Segueを設定
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toK" {
+        }
     }
     
 

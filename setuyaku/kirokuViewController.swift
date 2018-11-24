@@ -22,7 +22,7 @@ class kirokuViewController: UIViewController, UITableViewDataSource, UITableView
     var saves = UserDefaults.standard
     
     var Whatarray:[String] = ["新規作成"]
-    var Howmucharray:[String] = ["新規作成"]
+    var Howmucharray:[Int] = [0]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -61,17 +61,20 @@ class kirokuViewController: UIViewController, UITableViewDataSource, UITableView
             YoubiTitle.text = "日曜日"
         }
         
-        if  saves.object(forKey: "what"+YoubiNo+memoNo) as? [String] != nil{
-            Whatarray = saves.object(forKey: "what"+YoubiNo+memoNo) as! [String]
+        if  saves.object(forKey: "what"+YoubiNo) as? [String] != nil{
+            Whatarray = saves.object(forKey: "what"+YoubiNo) as! [String]
             //            titlenamearray.insert("新規作成", at: 0)
         }else{
             Whatarray = ["新規作成"]
-            saves.set(Whatarray, forKey: "what"+YoubiNo+memoNo)
-            Howmucharray = [""]
-            saves.set(Howmucharray, forKey: "howmuch"+YoubiNo+memoNo)
+            saves.set(Whatarray, forKey: "what"+YoubiNo)
+            Howmucharray = [0]
+            saves.set(Howmucharray, forKey: "howmuch"+YoubiNo)
         }
+        
+        print(Whatarray)
+        print(Howmucharray)
 
-    saves.set(Whatarray.count - 1, forKey: "whatnumber"+YoubiNo+memoNo)
+    saves.set(Whatarray.count - 1, forKey: "whatnumber"+YoubiNo)
     }
 
     override func didReceiveMemoryWarning() {

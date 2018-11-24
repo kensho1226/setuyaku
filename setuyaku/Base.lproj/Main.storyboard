@@ -182,6 +182,7 @@
                     <connections>
                         <outlet property="Ytable" destination="8Pp-Df-2s9" id="nY2-kw-Hmj"/>
                         <segue destination="ZcO-n9-9mC" kind="modal" identifier="toKiroku" id="tu4-q1-tRm"/>
+                        <segue destination="BYZ-38-t0r" kind="modal" identifier="toFirst" id="1UX-ML-D6J"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PKn-q0-kLA" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -322,11 +323,12 @@
                     <connections>
                         <outlet property="HowmuchTextField" destination="hu6-R9-JtQ" id="yW6-X1-Yj5"/>
                         <outlet property="WhatTextField" destination="lcg-4f-gYz" id="uve-uX-M1d"/>
+                        <segue destination="SoN-Yg-ca6" kind="modal" identifier="toK" id="cDx-O1-jwT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zPI-xQ-ui5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2989.5999999999999" y="106.59670164917542"/>
+            <point key="canvasLocation" x="3126" y="107"/>
         </scene>
         <!--Kakodata View Controller-->
         <scene sceneID="4Dc-Zu-Szj">
@@ -375,4 +377,8 @@
             <point key="canvasLocation" x="669.60000000000002" y="821.73913043478262"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="tu4-q1-tRm"/>
+        <segue reference="cDx-O1-jwT"/>
+    </inferredMetricsTieBreakers>
 </document>

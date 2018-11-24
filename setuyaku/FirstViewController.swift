@@ -22,6 +22,18 @@ class FirstViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    // Segueを設定
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toFirst" {
+        }
+    }
+
+    //appのクリーンアップ
+//    @IBAction func removeUserDefaults() {
+//        let appDomain = Bundle.main.bundleIdentifier
+//        UserDefaults.standard.removePersistentDomain(forName: appDomain!)
+//    }
+//
 
     /*
     // MARK: - Navigation
