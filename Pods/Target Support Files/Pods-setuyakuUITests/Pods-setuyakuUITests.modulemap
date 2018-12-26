@@ -1,0 +1,6 @@
+framework module Pods_setuyakuUITests {
+  umbrella header "Pods-setuyakuUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
