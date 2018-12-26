@@ -22,6 +22,8 @@
 		227516A4203589C5008C84A9 /* setuyakuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227516A3203589C5008C84A9 /* setuyakuUITests.swift */; };
 		2F3DDD6A1969B0AE8EDC9C1F /* Pods_setuyakuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00359E6DEDE53D6AA70B71C0 /* Pods_setuyakuTests.framework */; };
 		781ACF9778DE9E61CA50499D /* Pods_setuyakuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 712441DF1820DFE0FFB55948 /* Pods_setuyakuUITests.framework */; };
+		DCB6FA5121BBE1D000A3A0E7 /* objectiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB6FA5021BBE1D000A3A0E7 /* objectiveViewController.swift */; };
+		DCB6FA5321BC857200A3A0E7 /* sagakuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB6FA5221BC857200A3A0E7 /* sagakuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,8 @@
 		AD58E3201F927C72823877C0 /* Pods-setuyakuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-setuyakuUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-setuyakuUITests/Pods-setuyakuUITests.release.xcconfig"; sourceTree = "<group>"; };
 		ADEB11FD516C1BB3FE64DA94 /* Pods-setuyakuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-setuyakuTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-setuyakuTests/Pods-setuyakuTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BB9B5B02046BDAFAD7284A28 /* Pods-setuyaku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-setuyaku.release.xcconfig"; path = "Pods/Target Support Files/Pods-setuyaku/Pods-setuyaku.release.xcconfig"; sourceTree = "<group>"; };
+		DCB6FA5021BBE1D000A3A0E7 /* objectiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = objectiveViewController.swift; sourceTree = "<group>"; };
+		DCB6FA5221BC857200A3A0E7 /* sagakuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sagakuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +159,8 @@
 				2275168A203589C5008C84A9 /* Assets.xcassets */,
 				2275168C203589C5008C84A9 /* LaunchScreen.storyboard */,
 				2275168F203589C5008C84A9 /* Info.plist */,
+				DCB6FA5021BBE1D000A3A0E7 /* objectiveViewController.swift */,
+				DCB6FA5221BC857200A3A0E7 /* sagakuViewController.swift */,
 			);
 			path = setuyaku;
 			sourceTree = "<group>";
@@ -495,6 +501,8 @@
 			files = (
 				220F845520C16206001E78D0 /* memoViewController.swift in Sources */,
 				22751686203589C5008C84A9 /* ViewController.swift in Sources */,
+				DCB6FA5121BBE1D000A3A0E7 /* objectiveViewController.swift in Sources */,
+				DCB6FA5321BC857200A3A0E7 /* sagakuViewController.swift in Sources */,
 				22751684203589C5008C84A9 /* AppDelegate.swift in Sources */,
 				220F845120C161CB001E78D0 /* kirokuViewController.swift in Sources */,
 				221E1CD620DD01040038CB5B /* kakodataViewController.swift in Sources */,

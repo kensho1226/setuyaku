@@ -31,7 +31,6 @@ class memoViewController: UIViewController {
             let alert: UIAlertController = UIAlertController(title: "保存できません", message: "何に使ったかを入力してください。", preferredStyle: .alert)
             // アラートにボタンをつける
             alert.addAction(UIAlertAction(title: "OK", style: .default))
-            
             // アラート表示
             self.present(alert, animated: true, completion: nil)
             
