@@ -6,8 +6,6 @@
 //  Copyright © 2018年 keniku_macbook. All rights reserved.
 ////cellををタップしてmemoviewに入るときに、うまく表示されない
 
-//11月10日howmucharrayに値がうまく入らない
-
 import UIKit
 
 class kirokuViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {

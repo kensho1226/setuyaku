@@ -42,11 +42,15 @@ class objectiveViewController: UIViewController {
             
             // アラートにボタンをつける
             alert.addAction(UIAlertAction(title: "OK", style: .default, handler: {action in
-                self.performSegue(withIdentifier: "toFirst", sender: nil)}))
+                self.dismiss(animated: true, completion: nil)}))
             
             // アラート表示
             self.present(alert, animated: true, completion: nil)
         }
+    }
+    
+    @IBAction func back () {
+        self.dismiss(animated: true, completion: nil)
     }
     
     
